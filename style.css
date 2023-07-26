@@ -16,15 +16,15 @@ nav{
 nav > ul{
     display: flex;
     gap: 20px;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: #ffff;
     margin-left: 40px;
-    margin-top: 30px;
+    margin-top: 35px;
 }
 .nav-section{
     display: flex;
     align-items: center;
-    margin-left: 150px;
+    margin-left: 200px;
     gap: 10px;
 }
 .nav-img{
@@ -37,7 +37,7 @@ nav > ul{
 }
 .input{
     width: 350px;
-    margin-left: 190px;
+    margin-left: 200px;
     margin-top: 25.5px;
     border-radius: 50px;
 }
