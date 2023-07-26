@@ -10,6 +10,7 @@ nav{
     width: 1360px;
     height: 100px;
     margin-left: 80.5px;
+    margin-top: 30px;
     
 }
 nav > ul{
@@ -18,12 +19,12 @@ nav > ul{
     font-size: 1.5rem;
     color: #ffff;
     margin-left: 40px;
-    margin-top: 25.5px;
+    margin-top: 30px;
 }
 .nav-section{
     display: flex;
     align-items: center;
-    margin-left: 190px;
+    margin-left: 150px;
     gap: 10px;
 }
 .nav-img{
@@ -36,7 +37,7 @@ nav > ul{
 }
 .input{
     width: 350px;
-    margin-left: 150px;
+    margin-left: 190px;
     margin-top: 25.5px;
     border-radius: 50px;
 }
