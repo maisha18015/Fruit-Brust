@@ -2,42 +2,7 @@
 body{
     font-family: 'Lato', sans-serif;
 }
-/* nav section */
-nav{
-    display: flex;
-    background-color: #78C1F3;
-    border-radius: 50px;
-    width: 1360px;
-    height: 100px;
-    margin-left: 80.5px;
-    margin-top: 30px;
-    
-}
-nav > ul{
-    display: flex;
-    gap: 20px;
-    font-size: 1rem;
-    color: #ffff;
-    margin-left: 40px;
-    margin-top: 35px;
-}
-.nav-section{
-    display: flex;
-    align-items: center;
-    margin-left: 200px;
-    gap: 10px;
-}
-.nav-img{
-    width: 40px;
-    height: 40px;
-}
-.nav-title{
-    color: #ffff;
-    font-size: 2.5rem;
-}
-.input{
-    width: 350px;
-    margin-left: 200px;
-    margin-top: 25.5px;
-    border-radius: 50px;
-}
+/* footer icon section */
+/* .fa-apple{
+     padding: 20px;
+} */
