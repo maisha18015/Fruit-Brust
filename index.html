@@ -122,34 +122,33 @@
                 <a href="#slide1" class="btn btn-circle mt-28">❯</a>
               </div>
             </div>
-
-            <div class=" bg-gradient-to-r from-[#BFDBFE] to-blue-700 shadow-xl w-[950px] h-[180px] ml-48 grid grid-cols-5 absolute mt-[450px]">
-              <div class="1st one mt-5">
-                <img class="ml-5" src="images/fruit1.png" alt="">
-                <p class="ml-16 text-white">Grapes</p>
-              </div>
-              <div class="2nd one mt-5">
-                <img class="ml-10" src="images/fruit2.png" alt="">
-                <p class="ml-16 text-white">Orange</p>
-              </div>
-              <div class="3rd one mt-5">
-                <img class="ml-5" src="images/fruit3.png" alt="">
-                <p class="ml-20 text-white">Mango</p>
-              </div>
-              <div class="4th one mt-5">
-                <img class="ml-5" src="images/fruit4.png" alt="">
-                <p class="ml-14 text-white">Strawberry</p>
-              </div>
-              <div class="5th one mt-5">
-                <img class="ml-5" src="images/fruit5.png" alt="">
-                <p class="ml-12 text-white">Pomegranate</p>
-              </div>
           </div>
-          </div>
+          <div class=" bg-gradient-to-r from-[#BFDBFE] to-blue-700 shadow-xl w-[950px] h-[180px] ml-[190px] grid grid-cols-5 absolute -mt-[100px]">
+            <div class="1st one mt-5">
+              <img class="ml-5" src="images/fruit1.png" alt="">
+              <p class="ml-16 text-white">Grapes</p>
+            </div>
+            <div class="2nd one mt-5">
+              <img class="ml-10" src="images/fruit2.png" alt="">
+              <p class="ml-16 text-white">Orange</p>
+            </div>
+            <div class="3rd one mt-5">
+              <img class="ml-5" src="images/fruit3.png" alt="">
+              <p class="ml-20 text-white">Mango</p>
+            </div>
+            <div class="4th one mt-5">
+              <img class="ml-5" src="images/fruit4.png" alt="">
+              <p class="ml-14 text-white">Strawberry</p>
+            </div>
+            <div class="5th one mt-5">
+              <img class="ml-5" src="images/fruit5.png" alt="">
+              <p class="ml-12 text-white">Pomegranate</p>
+            </div>
+        </div>
       </section>
     </header>
 
-    <main class="container max-auto">
+    <main class="container max-auto  ">
 <!-- deal section -->
  <section class="20 mt-40">
     <div class="grid grid-cols-1 md:grid-cols-2">
@@ -191,7 +190,7 @@
 
     </div>
 
-    <div class="grid grid-cols-4 lg:grid-cols-4 md:grid-cols-1 w-[1050px] gap-10 ml-[250px] mt-10">
+    <div class="grid grid-cols-4 w-[1050px] ml-[240px]  gap-10 mt-10">
       <!-- 1st card -->
       <div class="card  bg-base-100 shadow-xl bg-gradient-to-r from-[#BFDBFE] to-blue-400">
         <figure class="px-10 pt-10">
@@ -200,6 +199,7 @@
         <hr class="mt-10 w-[170px] ml-9">
         <div class="card-body items-center text-center">
           <h2 class="card-title text-white">Apples</h2>
+
           <div>
             <a><i class="fa-solid fa-star text-red-500"></i></a>
             <a><i class="fa-regular fa-star-half-stroke text-red-500"></i></a>
@@ -208,7 +208,29 @@
             <a><i class="fa-solid fa-star text-red-200"></i></a>
 
           </div>
-          <p class="mt-5 text-red-500">Details</p>
+<!-- modole -->
+<div>
+<!-- Open the modal using ID.showModal() method -->
+<button class=" text-red-500 text-xl" onclick="my_modal_1.showModal()">Details</button>
+<dialog id="my_modal_1" class="modal">
+  <form method="dialog" class="modal-box">
+    <img class="w-24 ml-[180px] " src="images/fruit6.png" alt="Shoes" class="rounded-xl" /> 
+    <h4 class="mt-2">Apples</h4>
+    <p class="mt-2 text-sm">Professional employees are there for you to pick the most <br> amazing and fresh fruits.</p>
+    <a><i class="fa-solid fa-star text-red-500 mt-3"></i></a>
+    <a><i class="fa-regular fa-star-half-stroke text-red-500"></i></a>
+    <a><i class="fa-solid fa-star text-red-200"></i></a>
+    <a><i class="fa-solid fa-star text-red-200"></i></a>
+    <a><i class="fa-solid fa-star text-red-200"></i></a>
+    <div class="modal-action">
+      <!-- if there is a button in form, it will close the modal -->
+      <button class="btn border-red-300 ">Close</button>
+      <button class="btn bg-red-500 text-white">Buy Now</button>
+    </div>
+  </form>
+</dialog>
+
+</div>
         </div>
       </div>
 
@@ -227,7 +249,30 @@
             <a><i class="fa-solid fa-star text-red-200"></i></a>
             <a><i class="fa-solid fa-star text-red-200"></i></a>
           </div>
-          <p class="mt-5 text-red-500">Details</p>
+<!-- modal -->
+<div>
+  <!-- The button to open modal -->
+<label for="my_modal_6" class="text-xl text-red-500">Details</label>
+
+<!-- Put this part before-->
+<input type="checkbox" id="my_modal_6" class="modal-toggle" />
+<div class="modal">
+  <div class="modal-box">
+    <img class="ml-[155px]" src="images/fruit7.png" alt="Shoes" class="rounded-xl" /> 
+    <h4 class="mt-2">Orange</h4>
+    <p class="mt-2 text-sm">Professional employees are there for you to pick the most <br> amazing and fresh fruits.</p>
+      <a><i class="fa-solid fa-star text-red-500 mt-3"></i></a>
+      <a><i class="fa-regular fa-star-half-stroke text-red-500"></i></a>
+      <a><i class="fa-solid fa-star text-red-200"></i></a>
+      <a><i class="fa-solid fa-star text-red-200"></i></a>
+      <a><i class="fa-solid fa-star text-red-200"></i></a>
+    <div class="modal-action">
+      <label for="my_modal_6" class="btn border-red-300">Close</label>
+      <label for="my_modal_6" class="btn bg-red-500">Buy Now</label>
+    </div>
+  </div>
+</div>
+</div>
         </div>
       </div>
 
@@ -246,7 +291,28 @@
             <a><i class="fa-solid fa-star text-red-200"></i></a>
             <a><i class="fa-solid fa-star text-red-200"></i></a>
           </div>
-          <p class="mt-5 text-red-500">Details</p>
+<!-- modal -->
+<div>
+<!-- Open the modal using ID.showModal() method -->
+<button class="text-xl text-red-500" onclick="my_modal_5.showModal()">Details</button>
+<dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+  <form method="dialog" class="modal-box">
+    <img class="ml-[160px]" src="images/fruit8.png" alt="Shoes" class="rounded-xl" /> 
+    <h4 class="ml-2">Red Dragon</h4>
+    <p class="mt-2 text-sm">Professional employees are there for you to pick the most <br> amazing and fresh fruits.</p>
+    <a><i class="fa-solid fa-star text-red-500 mt-3"></i></a>
+    <a><i class="fa-regular fa-star-half-stroke text-red-500"></i></a>
+    <a><i class="fa-solid fa-star text-red-200"></i></a>
+    <a><i class="fa-solid fa-star text-red-200"></i></a>
+    <a><i class="fa-solid fa-star text-red-200"></i></a>
+    <div class="modal-action">
+      <!-- if there is a button in form, it will close the modal -->
+      <button class="btn border-red-300">Close</button>
+      <button class="btn bg-red-500">Buy Now</button>
+    </div>
+  </form>
+</dialog>
+</div>
         </div>
       </div>
       
@@ -265,7 +331,28 @@
             <a><i class="fa-solid fa-star text-red-200"></i></a>
             <a><i class="fa-solid fa-star text-red-200"></i></a>
           </div>
-          <p class="mt-5 text-red-500">Details</p>
+<!-- modal -->
+<div>
+<!-- The button to open modal -->
+<a href="#my_modal_8" class="text-xl text-red-500">Details</a>
+<!-- Put this part before -->
+<div class="modal" id="my_modal_8">
+  <div class="modal-box">
+    <img class="ml-[160px]" src="images/fruit9.png" alt="Shoes" class="rounded-xl" /> 
+    <h4 class="mt-2">Banana</h4>
+    <p class="mt-2 text-sm">Professional employees are there for you to pick the most <br> amazing and fresh fruits.</p>
+    <a><i class="fa-solid fa-star text-red-500 mt-3"></i></a>
+    <a><i class="fa-regular fa-star-half-stroke text-red-500"></i></a>
+    <a><i class="fa-solid fa-star text-red-200"></i></a>
+    <a><i class="fa-solid fa-star text-red-200"></i></a>
+    <a><i class="fa-solid fa-star text-red-200"></i></a>
+    <div class="modal-action">
+     <a href="#" class="btn border-red-300">Close</a>
+     <a href="#" class="btn bg-red-500 ">Buy Now</a>
+    </div>
+  </div>
+</div>
+</div>
         </div>
       </div>
 
@@ -385,13 +472,13 @@
 
         <!-- why choose img section  -->
 
-        <div class="why choose img  mt-10 w-80">
-          <img class="img bar ml-[90px]" src="images/whychoose1.png" alt="">
+        <div class="why choose img  lg:mt-10 w-80">
+          <img class="img bar ml-[90px] md:mr-10" src="images/whychoose1.png" alt="">
         </div>
 
         <!-- description section 2 -->
 
-        <div>
+        <div class="">
           <!-- 1st one -->
         <div class="dedicated section flex gap-5 mt-10">
           <div class="mt-4">
@@ -427,12 +514,13 @@
         </div>
     </section>
     </main>
-    <footer class="footer footer-center p-10 bg-base-200 text-base-content rounded bg-blue-900 text-white mt-[80px]">
+
+    <footer class="footer footer-center p-10 py-28 bg-base-200 text-base-content rounded bg-blue-900 text-white mt-[80px]">
       <div class="flex">
         <img class="w-8" src="images/logo.png" alt="">
         <h1 class="text-4xl">Fruit Burst</h1>
       </div>
-      <div class="grid grid-flow-col gap-5 ">
+      <div class="grid gap-5 grid-cols-3 md:grid-cols-6">
         <a class="link link-hover">Home</a> 
         <a class="link link-hover">About Us</a> 
         <a class="link link-hover">Shop</a> 
@@ -440,8 +528,9 @@
         <a class="link link-hover">Support</a>
         <a class="link link-hover">My Account</a>
       </div> 
+
       <div>
-        <div class="grid grid-flow-col gap-16 text-4xl">
+        <div class="grid gap-10 text-4xl grid-cols-3 md:grid-cols-6 mb-2 ">
           <a><i class="fa-brands fa-twitter"></i></a>
           <a><i class="fa-brands fa-facebook"></i></a>
           <a><i class="fa-brands fa-youtube"></i></a>
@@ -451,6 +540,6 @@
         </div>
       </div> 
     </footer>
-
+    
   </body>
 </html>
